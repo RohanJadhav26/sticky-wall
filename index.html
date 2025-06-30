@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Wall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button id="new-note">New Note</button>
+        <button id="toggle-theme">Theme</button>
+        <button id="export">Export</button>
+        <label for="import-file" class="import-label">Import</label>
+        <input type="file" id="import-file" hidden />
+    </header>
+    <main id="board" role="region" aria-label="Sticky Note Board"></main>
+    <footer>
+        <p>Sticky Wall - <a href="#">Github</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
